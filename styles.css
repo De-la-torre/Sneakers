@@ -17,7 +17,7 @@
   }
   html {
     font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   header {
     position: relative;
@@ -115,7 +115,7 @@
     height: 300px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("./img/2.jpg");
+    background-image: url("./img/tinified/1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -259,14 +259,7 @@
     padding: 20px 10px;
     background-color: var(--black);
   }
-  .product-detail--batata-logo {
-    position: absolute;
-    width: 40.57px;
-    height: 24.01px;
-    left: calc(50% - 20px);
-    top: -10px;
-    background-image: url("../assets/icons/batata.svg");
-  }
+
   .product-detail--title {
     width: 90%;
     min-width: 288px;
@@ -360,8 +353,8 @@
   .bitcoin-img-container {
     width: 100%;
     min-width: 320px;
-    height: 70vh;
-    background-image: url("./img/3.jpg");
+    height: 600px;
+    background-image: url("./img/tinified/2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -396,8 +389,7 @@
   }
   .plans-container--slider {
     display: flex;
-    /* gap: 50px; Aun no está soportado por todos los navegadores :( */
-    height: 316px;
+    height: 350px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
